@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgb(104, 101, 101);
+}
+.banner{
+    background-image: url("images/banner.jpg");
+    height:600px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+h1{
+    color:white;
+    padding-top: 120px;
+    font-size: 100px;
+}
+strong{
+    color:green;
+}
+button{
+
+    background-color: green;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    font: bolder;
+    overflow: hidden;
+}
+ button:hover{
+     background-color: white;
+     color: green;
+     border-color: green;
+ }
+
+ .gradi{
+    height: 110px;
+    overflow: hidden;
+    padding-top: 310px;
+    background-color:transparent;
+    background-image: linear-gradient(transparent, black);
+ }
+ .gradi2{
+    height: 100px;
+    overflow: hidden;
+    padding-top:0px;
+    background-color:transparent;
+    background-image: linear-gradient(transparent, black);
+ }
+.img1{
+    width: 500px;
+    height: 500px;
+}
+div{
+    align-items: center;
+   text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff00;
+    padding: 20px;
+  }
+
+  .back{
+      background-image: url("images/banner2.jpg");
+  }
+
+  footer{
+      background-color: rgb(11, 11, 43);
+  }
+
+  .copy{
+      padding: 10px;
+      color: white;
+      background-color: black;
+  }
